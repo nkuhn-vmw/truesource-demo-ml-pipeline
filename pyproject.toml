@@ -1,0 +1,16 @@
+# Intentionally vulnerable demo for TrueSource Viewer: do not install.
+[tool.poetry]
+name = "truesource-demo-ml-pipeline"
+version = "1.0.0"
+description = "Demo only"
+authors = ["Demo <demo@example.invalid>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "1.21.0"
+pillow = "9.0.0"
+pyyaml = "5.3.1"
+jinja2 = "2.11.2"
+transformers = "4.30.0"
+torch = "2.0.1"
+ultralytics = "8.3.41"
